@@ -61,12 +61,24 @@ body {
 
 /* Стили для навигационной панели */
 .navbar {
+    width: 100%;
     background-color: #333;
     border: none;
     border-radius: 0;
     height: 70px; /* Высота шапки */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
 }
-
+.navbar .container{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar.menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
 .navbar-brand {
     font-size: 24px;
     color: #fff;
