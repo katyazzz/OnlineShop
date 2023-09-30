@@ -1,3 +1,15 @@
+
+@font-face {
+    font-family: 'Onest';
+    src:  url('fonts/OnestRegular1602-hint.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Onest', sans-serif;
+}
+
 /* Стили для карточек товаров */
 .thumbnail {
     border: 1px solid #ddd;
@@ -49,20 +61,32 @@
 
 /* Стили для навигационной панели */
 .navbar {
-    margin-bottom: 20px;
     background-color: #333;
+    border: none;
+    border-radius: 0;
+    height: 50px; /* Высота шапки */
 }
 
-.navbar-brand u {
+.navbar-brand {
+    font-size: 24px;
     color: #fff;
+    margin-right: 20px; /* Расстояние между логотипом и пунктами меню */
+}
+
+.navbar-nav {
+    margin-top: 5px; /* Расстояние между верхним краем шапки и пунктами меню */
 }
 
 .navbar-nav > li > a {
     color: #fff;
+    font-size: 16px;
+    padding: 15px 10px; /* Отступы вокруг текста в пунктах меню */
 }
 
-.navbar-nav > li > a:hover {
-    background-color: #444;
+.cart-link {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 5px; /* Расстояние между верхним краем шапки и ссылкой на корзину */
 }
 
 /* Стили для подвала */
