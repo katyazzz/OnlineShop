@@ -34,8 +34,9 @@ body {
 
 .btn-minus,
 .btn-plus {
-    font-size: 18px;
+    font-size: 22px;
     padding: 3px 8px;
+    border-radius: 20px;
 }
 
 .count-input {
