@@ -283,7 +283,6 @@ html {
     -moz-osx-font-smoothing: grayscale;
   }
   
-  }
   * {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
@@ -5283,6 +5282,7 @@ html {
   }
   .carousel {
     position: relative;
+    height: 300px; /* Задаем высоту слайдера */
   }
   .carousel-inner {
     position: relative;

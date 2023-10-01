@@ -83,7 +83,7 @@ body {
 .navbar-brand {
     font-size: 24px;
     color: #fff;
-    margin-right: 20px; /* Расстояние между логотипом и пунктами меню */
+    margin-right: 100px; /* Расстояние между логотипом и пунктами меню */
 }
 
 .navbar-nav {
