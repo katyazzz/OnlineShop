@@ -39,11 +39,11 @@ body {
     border-radius: 20px;
 }
 
-.count-input {
+/* .count-input {
     width: 30px;
     text-align: center;
     display: inline-block;
-}
+} */
 
 .ok-1,
 .ok-2,
@@ -68,6 +68,8 @@ body {
     border-radius: 0;
     height: 70px; /* Высота шапки */
     box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+    position: fixed;
+    top: 0;
 }
 .navbar .container{
     height: inherit;
@@ -122,10 +124,10 @@ body {
 }
 
 .count-input {
-    width: 30px;
+    width: 50px;
     text-align: center;
     display: inline-block;
-    border-radius: 5px; /* Добавьте это свойство для скругления кнопок */
+    border-radius: 10px; /* Добавьте это свойство для скругления кнопок */
 }
 
 .ok-1,

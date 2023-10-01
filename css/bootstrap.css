@@ -795,6 +795,7 @@ html {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    /* margin-top: 30px; */
   }
   @media (min-width: 768px) {
     .container {
@@ -3282,7 +3283,7 @@ html {
     border-top-right-radius: 0;
   }
   .navbar {
-    position: relative;
+    position: fixed;
     min-height: 50px;
     margin-bottom: 20px;
     border: 1px solid transparent;
